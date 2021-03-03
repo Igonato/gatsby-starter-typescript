@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { Main } from "../components/main"
+
 export default function Home() {
-    return <div>Hello, World!</div>
+    return <Main title="Home">Hello, World!</Main>
 }

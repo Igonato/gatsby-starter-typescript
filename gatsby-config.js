@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-    /* Your site config here */
-    plugins: [],
+    siteMetadata: {
+        // Default metadata values for the site
+        title: `Gatsby TypeScript Starter`,
+        description: `New and shiny Gatsby powered website!`,
+        author: `Your Name`,
+        lang: `en`,
+    },
+    plugins: [`gatsby-plugin-react-helmet`],
 }
