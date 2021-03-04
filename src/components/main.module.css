@@ -1,0 +1,33 @@
+.rootContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerWrapper,
+.footerWrapper {
+    padding: 0 var(--spacing-md);
+    align-self: stretch;
+    background-color: var(--color-bg-primary);
+}
+
+.headerWrapper > header,
+.footerWrapper > header {
+    margin: 0 auto;
+    max-width: var(--width-xl);
+}
+
+.mainWrapper {
+    padding: 0 var(--spacing-md);
+    flex-grow: 1;
+}
+
+.mainWrapper > main {
+    max-width: var(--width-md);
+}
+
+.footerWrapper > footer {
+    text-align: center;
+    padding: 1rem;
+}

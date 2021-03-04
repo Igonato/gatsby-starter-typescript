@@ -13,6 +13,8 @@ import { Helmet } from "react-helmet"
 import { Footer } from "./footer"
 import { Header } from "./header"
 
+import * as styles from "./main.module.css"
+
 interface MainProps {
     children: React.ReactNode
     title?: string
@@ -45,7 +47,7 @@ export function Main({ children, title, lang, meta }: MainProps) {
     `) as siteMetadataQueryResult).site.siteMetadata
 
     return (
-        <>
+        <div className={styles.rootContainer}>
             <Helmet
                 htmlAttributes={{
                     lang: lang || defaultMeta.lang,
@@ -65,10 +67,18 @@ export function Main({ children, title, lang, meta }: MainProps) {
                 ]}
             ></Helmet>
 
-            <Header />
-            <main>{children}</main>
-            <Footer />
-        </>
+            <div className={styles.headerWrapper}>
+                <Header />
+            </div>
+
+            <div className={styles.mainWrapper}>
+                <main>{children}</main>
+            </div>
+
+            <div className={styles.footerWrapper}>
+                <Footer />
+            </div>
+        </div>
     )
 }
 
