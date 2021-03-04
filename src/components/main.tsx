@@ -7,18 +7,20 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import { Helmet } from "react-helmet"
+
+import { Footer } from "./footer"
+import { Header } from "./header"
 
 interface MainProps {
     children: React.ReactNode
-    slug?: string
     title?: string
     lang?: string
     meta?: [{ name: string; content: string }]
 }
 
-export function Main({ children, slug, title, lang, meta }: MainProps) {
+export function Main({ children, title, lang, meta }: MainProps) {
     interface siteMetadataQueryResult {
         site: {
             siteMetadata: {
@@ -62,7 +64,10 @@ export function Main({ children, slug, title, lang, meta }: MainProps) {
                     ...(meta || []),
                 ]}
             ></Helmet>
+
+            <Header />
             <main>{children}</main>
+            <Footer />
         </>
     )
 }
