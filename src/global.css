@@ -93,22 +93,56 @@ body.dark {
     --color-text-link: var(--color-accent);
     --color-text-primary: #fff;
     --color-text-secondary: #bbb;
+
+    --light-theme-accent: #487b61;
+    --light-theme-bg-primary: #fafafa;
+    --light-theme-bg-secondary: #fff;
+    --light-theme-text-heading: var(--light-theme-text-primary);
+    --light-theme-text-link: var(--light-theme-accent);
+    --light-theme-text-primary: #3a3a3a;
+    --light-theme-text-secondary: #666;
+}
+
+body .theme-switch-dark {
+    display: none;
+}
+body .theme-switch-light {
+    display: inline;
+}
+
+body.light .theme-switch-dark {
+    display: inline;
+}
+body.light .theme-switch-light {
+    display: none;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --color-bg-primary: #fafafa;
-        --color-bg-secondary: #fff;
-        --color-text-primary: #516181;
-        --color-text-secondary: #212121;
+        --color-accent: var(--light-theme-accent);
+        --color-bg-primary: var(--light-theme-bg-primary);
+        --color-bg-secondary: var(--light-theme-bg-secondary);
+        --color-text-heading: var(--light-theme-text-heading);
+        --color-text-link: var(--light-theme-text-link);
+        --color-text-primary: var(--light-theme-text-primary);
+        --color-text-secondary: var(--light-theme-text-secondary);
+    }
+    body .theme-switch-dark {
+        display: inline;
+    }
+    body .theme-switch-light {
+        display: none;
     }
 }
 
 body.light {
-    --color-bg-primary: #fafafa;
-    --color-bg-secondary: #fff;
-    --color-text-primary: #516181;
-    --color-text-secondary: #212121;
+    --color-accent: var(--light-theme-accent);
+    --color-bg-primary: var(--light-theme-bg-primary);
+    --color-bg-secondary: var(--light-theme-bg-secondary);
+    --color-text-heading: var(--light-theme-text-heading);
+    --color-text-link: var(--light-theme-text-link);
+    --color-text-primary: var(--light-theme-text-primary);
+    --color-text-secondary: var(--light-theme-text-secondary);
 }
 
 /**
@@ -194,7 +228,7 @@ figcaption {
 }
 
 mark {
-    background-color: var(--color-accent);
+    background-color: var(--color-bg-primary);
     color: var(--color-text-primary);
     padding: 0 var(--spacing-md);
 }
