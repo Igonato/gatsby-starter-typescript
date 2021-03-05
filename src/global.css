@@ -63,7 +63,7 @@ body {
     /**
      * Horizontal measures
      */
-    --vh-ratio: 2.45; /* Adjust for the chosen font */
+    --vh-ratio: 2.45; /* Adjust for the chosen body font */
     --width-ch: calc(var(--base) / var(--vh-ratio));
     --width-xl: calc(var(--width-ch) * 140);
     --width-lg: calc(var(--width-ch) * 96);
@@ -111,25 +111,19 @@ body.light {
     --color-text-secondary: #212121;
 }
 
-body {
-    background-color: var(--color-bg-secondary);
-    color: var(--color-text-secondary);
-}
-
-main {
-    color: var(--color-text-primary);
-}
-
 /**
  * Typography
  */
 body {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
     font-family: var(--font-body);
     font-size: var(--modular-00);
     line-height: var(--line-height-md);
 }
 
 main {
+    color: var(--color-text-primary);
     line-height: var(--line-height-lg);
 }
 
@@ -141,14 +135,15 @@ h5,
 h6 {
     color: var(--color-text-heading);
     font-family: var(--font-heading);
-    margin-top: var(--modular-02);
-    line-height: var(--line-height-xs);
     font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-xs);
+    margin-top: var(--modular-02);
 }
 
 h1 {
     font-size: var(--modular-05);
     margin-bottom: var(--modular-02);
+    margin-top: var(--modular-03);
 }
 
 h2 {
@@ -188,6 +183,20 @@ hr {
     background-color: var(--color-text-primary);
     border: 0;
     height: 1px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+mark {
+    background-color: var(--color-accent);
+    color: var(--color-text-primary);
+    padding: 0 var(--spacing-md);
 }
 
 /**

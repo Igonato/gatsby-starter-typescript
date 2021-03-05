@@ -36,68 +36,66 @@ export default function About() {
                 can use it to&nbsp;tune the line width for a chosen font.
             </p>
             <h2>H2. Coming Through</h2>
-            <p>
-                Text formatting time!
-                <ul>
-                    <li>
-                        <code>&lt;b&gt;</code> - <b>Bold text</b>
-                    </li>
-                    <li>
-                        <code>&lt;strong&gt;</code> -{" "}
-                        <strong>Important text</strong>
-                    </li>
-                    <li>
-                        <code>&lt;i&gt;</code> - <i>Italic text</i>
-                    </li>
-                    <li>
-                        <code>&lt;em&gt;</code> - <em>Emphasized text</em>
-                    </li>
-                    <li>
-                        <code>&lt;mark&gt;</code> - <mark>Marked text</mark>
-                    </li>
-                    <li>
-                        <code>&lt;small&gt;</code> - <small>Smaller text</small>
-                    </li>
-                    <li>
-                        <code>&lt;del&gt;</code> - <del>Deleted text</del>
-                    </li>
-                    <li>
-                        <code>&lt;ins&gt;</code> - <ins>Inserted text</ins>
-                    </li>
-                    <li>
-                        <code>&lt;sub&gt;</code> - Test<sub>Subscript text</sub>
-                    </li>
-                    <li>
-                        <code>&lt;sup&gt;</code> - Test
-                        <sup>Superscript text</sup>
-                    </li>
-                    <li>
-                        Nerdy text
-                        <ul>
-                            <li>
-                                <code>&lt;code&gt;</code> -{" "}
-                                <code>Piece of code</code>
-                            </li>
-                            <li>
-                                <code>&lt;kbd&gt;</code> - <kbd>Ctrl + S</kbd>{" "}
-                                Keyboard input
-                            </li>
-                            <li>
-                                <code>&lt;pre&gt;</code> -{" "}
-                                <pre>Preformatted{"   \n   "}text</pre>
-                            </li>
-                            <li>
-                                <code>&lt;samp&gt;</code> -{" "}
-                                <samp>Sample output</samp>
-                            </li>
-                            <li>
-                                <code>&lt;var&gt;</code> - <var>a</var>{" "}
-                                <var>b</var> <var>c</var> Variable
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </p>
+            <p>Text formatting time!</p>
+            <ul>
+                <li>
+                    <code>&lt;b&gt;</code> - <b>Bold text</b>
+                </li>
+                <li>
+                    <code>&lt;strong&gt;</code> -{" "}
+                    <strong>Important text</strong>
+                </li>
+                <li>
+                    <code>&lt;i&gt;</code> - <i>Italic text</i>
+                </li>
+                <li>
+                    <code>&lt;em&gt;</code> - <em>Emphasized text</em>
+                </li>
+                <li>
+                    <code>&lt;mark&gt;</code> - <mark>Marked text</mark>
+                </li>
+                <li>
+                    <code>&lt;small&gt;</code> - <small>Smaller text</small>
+                </li>
+                <li>
+                    <code>&lt;del&gt;</code> - <del>Deleted text</del>
+                </li>
+                <li>
+                    <code>&lt;ins&gt;</code> - <ins>Inserted text</ins>
+                </li>
+                <li>
+                    <code>&lt;sub&gt;</code> - Test<sub>Subscript text</sub>
+                </li>
+                <li>
+                    <code>&lt;sup&gt;</code> - Test
+                    <sup>Superscript text</sup>
+                </li>
+                <li>
+                    Nerdy text
+                    <ul>
+                        <li>
+                            <code>&lt;code&gt;</code> -{" "}
+                            <code>Piece of code</code>
+                        </li>
+                        <li>
+                            <code>&lt;kbd&gt;</code> - <kbd>Ctrl + S</kbd>{" "}
+                            Keyboard input
+                        </li>
+                        <li>
+                            <code>&lt;pre&gt;</code> -{" "}
+                            <pre>Preformatted{"   \n   "}text</pre>
+                        </li>
+                        <li>
+                            <code>&lt;samp&gt;</code> -{" "}
+                            <samp>Sample output</samp>
+                        </li>
+                        <li>
+                            <code>&lt;var&gt;</code> - <var>a</var> <var>b</var>{" "}
+                            <var>c</var> Variable
+                        </li>
+                    </ul>
+                </li>
+            </ul>
             <h3>H3. Look at Me</h3>
             Here goes some text without a <code>p</code> tag. Do things break?
             <br />
@@ -118,7 +116,7 @@ export default function About() {
                 {lorem[6]}
             </p>
             <p>{lorem[7]}</p>
-            <h5>H5. Bees in Hive</h5>
+            <h5>H5. Bees in a Hive</h5>
             <p>{lorem[8]}</p>
             <p>{lorem[9]}</p>
             <h6>H6. Sticks and Bricks</h6>

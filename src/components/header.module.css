@@ -1,3 +1,7 @@
+.header {
+    padding-bottom: var(--spacing-md);
+}
+
 .header,
 .nav {
     display: flex;

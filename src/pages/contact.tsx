@@ -5,10 +5,10 @@ import { Main } from "../components/main"
 export default function Contact() {
     return (
         <Main title="Contact us">
+            <h1>Thank You</h1>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-                fugit. Rerum sint consequuntur laudantium, deserunt enim saepe
-                illum asperiores, assumenda!
+                For expressing an interest in this starter. I hope you have a
+                great day!
             </p>
         </Main>
     )
