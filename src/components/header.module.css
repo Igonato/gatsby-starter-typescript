@@ -67,10 +67,10 @@
     color: var(--color-text-secondary);
 }
 
-.themeSwitcher {
+.theme-switcher {
     right: var(--spacing-xl);
 }
 
-.themeSwitcher > span {
+.theme-switcher > span {
     cursor: pointer;
 }

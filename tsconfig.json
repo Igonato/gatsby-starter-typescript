@@ -12,6 +12,13 @@
         "noEmit": true,
         "skipLibCheck": true,
         "moduleResolution": "node",
-        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+        "plugins": [
+            {
+                "name": "typescript-plugin-css-modules",
+                "options": {
+                    "classnameTransform": "camelCase"
+                }
+            }
+        ]
     }
 }
