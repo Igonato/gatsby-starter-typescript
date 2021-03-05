@@ -17,7 +17,7 @@ export default function Home() {
                 <li>gatsby-plugin-react-helmet;</li>
                 <li>typescript-plugin-css-modules;</li>
                 <li>Basic header-main-footer layout;</li>
-                <li>CSS normalize and some minimal styles;</li>
+                <li>CSS normalize and some basic styles;</li>
                 <li>Simple dark/lite theming with switching support.</li>
             </ul>
             <figure>

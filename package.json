@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world-typescript",
+  "name": "gatsby-starter-typescript",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby using TypeScript",
+  "description": "TypeScript-ready Gatsby v3.0 starter",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -33,9 +33,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Igonato/gatsby-starter-hello-world-typescript"
+    "url": "https://github.com/Igonato/gatsby-starter-typescript"
   },
   "bugs": {
-    "url": "https://github.com/Igonato/gatsby-starter-hello-world-typescript/issues"
+    "url": "https://github.com/Igonato/gatsby-starter-typescript/issues"
   }
 }
