@@ -5,7 +5,7 @@ but using TypeScript with some other tweaks, specifically:
 
 -   Added `typescript` and `typescript-plugin-css-modules` as dependencies
 -   Added tsconfig.json
--   Added `type-check` npm script
+-   Added `type-check` npm script and type declarations for css modules
 -   Added basic 404 page
 -   Page files converted to .tsx
 -   Added `"tabWidth": 4` in `.prettierrc` since 4-space tabs seem to be
